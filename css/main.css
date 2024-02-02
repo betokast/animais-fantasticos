@@ -39,12 +39,12 @@ body {
 .menu ul {
     display: flex;
     flex-wrap: wrap;
-    padding: 10px;    
+    padding: 10px;
 }
 
 .menu li a {
     display: block;
-    padding: 10px;
+    padding: 15px 10px;
     margin-right: 10px;
     color: var(--mainfont);
     text-decoration: none;
@@ -52,7 +52,7 @@ body {
     font-weight: bold;
     text-transform: uppercase;
     font-size: 0.875rem;
-    letter-spacing: .1rem;    
+    letter-spacing: .1rem;
 }
 
 .grid-section {
@@ -101,7 +101,7 @@ body {
 .animais-lista {
     height: 370px;
     overflow-y: scroll;
-    grid-column: 2;    
+    grid-column: 2;
 }
 
 .animais-lista::-webkit-scrollbar{
@@ -113,7 +113,7 @@ body {
     border-right: 4px solid var(--mainbackground);
 }
 .animais-lista::-webkit-scrollbar-track{
-    background: var(--mainbackground);    
+    background: var(--mainbackground);
 }
 
 .animais-descricao{
@@ -223,11 +223,3 @@ body {
         margin-bottom: 0px;
     }
 }
-
-
-
-
-
-
-
-
